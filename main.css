@@ -29,6 +29,14 @@ header  .sticky
     padding: 5px 100px ; 
     background-color : #fff ; 
 }
+.sticky
+{
+    width : 100%;
+    height : 8vh; 
+    background:  #3f4746   ;
+    background-size: cover;
+}
+
 header .logo 
 {
     position: relative;
@@ -76,25 +84,22 @@ header ul li a
 {
     position : relative ; 
     width : 100%; 
-    height : 50vh;
+    height : 75vh;
     background : #0DB4A0 ; 
     background-size: cover;
     text-align : center;
-
 }
 .presentation h1 
 {
     margin-top: 4em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25em ;
+    text-align: center;
+    position: relative;
 }
 .presentation p
 {
     margin-top: 3em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30em ;
+    text-align: center;
+    position: relative;
 
 }
 /* ------------ Competence 2e Bloc ----------------*/
@@ -102,7 +107,7 @@ header ul li a
 {
     position : relative ; 
     width : 100%; 
-    height : 70vh;
+    height : 90vh;
     background :  #0D8CB4 ; 
     background-size: cover;
    
@@ -129,7 +134,7 @@ header ul li a
 {
     position : relative ; 
     width : 100%; 
-    height : 50vh; 
+    height :85vh; 
     background : #0DB4A0 ; 
     background-size: cover;
 }
@@ -139,6 +144,7 @@ header ul li a
     margin-left: auto;
     margin-right: auto;
     width: 25em ;
+
 }
 /* ------------ Contact 4em Block ----------------*/
 
@@ -146,9 +152,21 @@ header ul li a
 {
     position : relative ; 
     width : 100%; 
-    height : 50vh;
+    height : 78vh;
     background :  #0D8CB4 ; 
     background-size: cover;
+}
+.Contact h2
+{
+    text-align: center;
+      position: relative;
+    font-weight : 700 ; 
+    color : #fff ; 
+    text-decoration: none;
+    font-size: 1.5em ;
+    text-transform: uppercase;
+    letter-spacing: 2px ;
+    transition: 0,6s;
 }
 /* --------------- grid -----------------------------*/
 .item1{
@@ -218,6 +236,7 @@ header ul li a
     display: flex;
     justify-content : left;
     margin-left: 25px;
+    margin-top: 2.5em ;
     align-items : center;
 }
 .main
@@ -349,15 +368,15 @@ input[type=text], textarea, input[type=email] {
     /* Ajouter box-sizing */
     box-sizing : border-box;
     border-radius:5px;
-    background-color:#f2f2f2;
+    background-color:#0D8CB4;
     padding:20px;
     width: 100%;
     /* redéfinition 400 + 2*20 */
     max-width:100em;
-    margin:0 auto;
+    margin:0 5.5em ;
   }
   .formulaire h1 
   {
-    color:#fff;
+    color:#0DB4A0 ;
     width: 100%;
   }
