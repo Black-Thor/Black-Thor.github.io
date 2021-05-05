@@ -11,14 +11,14 @@
     <header>
         <a href="#" class="logo">Duboze Stéphane</a>
         <ul>
-            <li><a href="#"> Acceuil        </a></li>
+            <li><a href="#">Accueil </a></li>
             <li><a href="#"> A propos de moi</a></li>
             <li><a href="#"> Portfolio      </a></li>
             <li><a href="#"> Contact        </a></li>
         </ul>
     </header>
     <section class = "banner">      
-    <script type="text/javascript">
+    <script type="text/javascript" >
         window.addEventListener("scroll" , function(){
             var header = document.querySelector("header");
             header.classList.toggle("sticky",window.scrollY > 0 )
@@ -26,13 +26,12 @@
     </script>
     </section>
 
-
-    <div id="Presentation">
-        <h1>Bonjour , Je m'appelle Stéphane Duboze</h1>
+    <div class = "presentation">
+        <h1 class = "bonjour">Bonjour , Je m'appelle Stéphane Duboze</h1>
         <p>Devellopeur Web en Devenir, et partisant du DevOps</p>
     </div>
 
-    <div id="Competence">
+    <div class = "competence">
         <ul>
             <li> <a href="#" > Mes Competences </a></li>
             <li> <a href="#" > Mon Parcours    </a></li>
@@ -40,23 +39,34 @@
         </ul>
     </div>
 
-    <div id="Portfolio">
+    <div class = "Portfolio">
         <h2> Mon Portfolio </h2>
         <div id ="Projet1">
-
+            <h4>Projet1</h4>
+            <p>Sujet du projet</p>
+            <p>Language</p>
+            <a href="#">Lien vers Git</a>
         </div>
         <div id ="Projet2">
-
+            <h4>Projet2</h4>
+            <p>Sujet du projet</p>
+            <p>Language</p>
+            <a href="#">Lien vers Git</a>
         </div>
         <div id ="Projet3">
-
+            <h4>Projet3</h4>
+            <p>Sujet du projet</p>
+            <p>Language</p>
+            <a href="#">Lien vers Git</a>
         </div>
         <div id ="Projet4">
-
+            <p>Sujet du projet</p>
+            <p>Language</p>
+            <a href="#">Lien vers Git</a>
         </div>
     </div>
     
-    <div id="Contact">
+    <div class="Contact">
         <h2>Contactez moi</h2>
         <p>Retrouvez moi sur : </p>
         <ul>
