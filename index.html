@@ -4,14 +4,15 @@
   <meta charset="utf-8">
   <title>Portfolio </title>
   <link rel="stylesheet" href="main.css">
+  <script src="https://kit.fontawesome.com/8c8eaf5ade.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!--navbar -->
     <header>
-        <a href="#Presentation" class="logo">Duboze Stéphane</a>
+        <a href="#" class="logo">Duboze Stéphane</a>
         <ul>
-            <li><a href="#Presentation">Accueil </a></li>
+            <li><a href="#">Accueil </a></li>
             <li><a href="#Competence"> A propos de moi</a></li>
             <li><a href="#Portfolio"> Portfolio      </a></li>
             <li><a href="#Contact"> Contact        </a></li>
@@ -33,9 +34,9 @@
 
     <div id ="Competence" class = "competence">
       
-            <a href="#" > Mes Competences </a></li>
-            <a href="#" > Mon Parcours    </a></li>
-            <a href="#" > Mon Experience  </a></li>
+            <a href="#" > Mes Competences </a>
+            <a href="#" > Mon Parcours    </a>
+            <a href="#" > Mon Experience  </a>
         
     </div>
 
@@ -69,21 +70,40 @@
     <div id="Contact" class="Contact">
         <h2>Contactez moi</h2>
         <p>Retrouvez moi sur : </p>
-        <ul>
-           <a href="#" ><li> Codepen</li></a>
-           <a href="#" ><li> Linkdin</li></a>
-           <a href="#" ><li> GitHub</li></a>
-           <a href="#" ><li> FreeCodeCamp</li></a>
-           <a href="#" ><li> TreeHouse</li></a>
-           <a href="#" ><li> TryHackme</li></a>
-           <a href="#" ><li> Twitter</li></a>
+        <div class = "main center">
+            <div class ="box center">
+                <a href="#" data-text="Codepen"> 
+                     <i class="fab fa-codepen fa-2x"></i>
+                </a>
+              <a href="#" data-text="Linkedin"> 
+                     <i class="fab fa-linkedin-in fa-2x"></i> 
+                </a>
+              <a href="#" data-text="GitHub">
+                     <i class="fab fa-github fa-2x"></i> 
+                </a>
+              <a href="#" data-text="FreeCodeCamp"> 
+                  <i class="fab fa-free-code-camp fa-2x"></i>
+                </a>
+              <a href="#" data-text="Twitter">
+                  <i class="fab fa-twitter fa-2x "></i>
+                </a>
+            </div>
+        </div>
+      <div class ="TreeH">
+        <a href="https://www.teamtreehouse.com/stephaneduboze" > TreeHouse</a>
+      </div>
 
-        </ul>
+      <div class="THack">
+        <a href="#" > TryHackme</a>
+      </div>
     </div>
+    
+
 
     <footer>
         <div>
             <p>Crée par Duboze Stéphane</p>
+            
         </div>
     </footer>
 </body>
