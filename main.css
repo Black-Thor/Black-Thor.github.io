@@ -150,6 +150,31 @@ header ul li a
     background :  #0D8CB4 ; 
     background-size: cover;
 }
+/* --------------- grid -----------------------------*/
+.item1{
+    grid-area: a;
+}
+.item2
+{
+    grid-area: b;
+}
+.item3
+{
+    grid-area: c;
+}
+.item4
+{
+    grid-area: d;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: " a b . . c "
+                         " a b . . d "
+                         " a b . . . "
+                         " a b . . . ";
+}
+
+
 /* ---------------- Teamtreehouse -----------------*/
 .TreeH
 {
@@ -182,22 +207,10 @@ header ul li a
     text-transform: uppercase;
     border-radius: 40px;
     background : linear-gradient(90deg,  #0c5b74 , #0e8f80 ) ;  
+    margin : 10em 5em 0 10em ; 
  
 }
-.THack h4
-{
-    display: inline-block;
-    padding : 12px 36px ; 
-    margin: 10px 0 ; 
-    color: #fff ; 
-    text-decoration : none ; 
-    text-transform: uppercase;
-    font-size : 18px ;
-    letter-spacing: 2px ; 
-    border-radius: 40px;
-    background : linear-gradient(90deg,  #0c5b74 , #0e8f80 ) ; 
-    margin : 10em 5em 0 10em ; 
-}
+
 
 
 /* ------------ icone contact ----------------------------*/
